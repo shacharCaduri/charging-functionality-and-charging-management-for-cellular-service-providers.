@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\hashmap">
+      <UniqueIdentifier>{326a976c-0bea-408e-9e57-7885b1077713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ReadThreadOperations">
+      <UniqueIdentifier>{2794a8b6-b21a-4b43-9380-31fa55c383e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Threads">
+      <UniqueIdentifier>{cab8a58d-ffa3-4669-9cdf-b97bbdc0c752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\thread pools classes">
+      <UniqueIdentifier>{cdf060f0-b9ba-4a3d-be83-191c078fe57a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WriteThreadOperations">
+      <UniqueIdentifier>{15ce8138-3ffd-4dd8-bb04-eed1249d86ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDRMsg.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDR_Reader.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDR_Record.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CostumerBilling.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFAM_CSP_Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterOperatorSettlement.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="My Header Files\hashmap\HashMap.h">
+      <Filter>Header Files\hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="My Header Files\hashmap\HashNode.h">
+      <Filter>Header Files\hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="My Header Files\hashmap\KeyHash.h">
+      <Filter>Header Files\hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="My Header Files\hashmap\MyKeyHashes.h">
+      <Filter>Header Files\hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="CDR_Record.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDRMsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDR_Reader.h">
+      <Filter>Header Files\ReadThreadOperations</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\ReadThreadOperations</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="readThread.h">
+      <Filter>Header Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="CostumerBilling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_safe_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteThread.h">
+      <Filter>Header Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="InterOperatorSettlement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enum_tCall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteThreadOperations.h">
+      <Filter>Header Files\WriteThreadOperations</Filter>
+    </ClInclude>
+    <ClInclude Include="StartPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread pools classes\ThreadPool.h">
+      <Filter>Header Files\thread pools classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\EyeControl_Assignment_ShacharKaduri\file.cdr">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
